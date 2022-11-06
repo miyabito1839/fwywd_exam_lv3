@@ -1,43 +1,76 @@
-header {
-  box-sizing: border-box;
-}
-.list-menu {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  padding-left: 15%;
-}
-.list-menu li {
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  list-style: none;
+/* Fundamental */
+body {
+  font-family: "Noto Sans JP";
+  font-size: 16px;
   color: #384459;
+}
+
+/* Layout */
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+
+.border-right {
+  border-right: solid 1px #e4e4e4;
+}
+
+/* Text */
+.decoration-none {
+  text-decoration: none;
+}
+
+.text-black {
+  color: #384459;
+}
+.text-white {
+  color: #ffffff;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+/* Background */
+.bg-primary {
+  background: #007979;
+}
+
+/* List */
+.list-style-none {
+  list-style: none;
+}
+
+/* Hover */
+.btn-hover:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+
+/* Margin,Padding,Gap */
+.gap-x-10 {
+  gap: 0px 10px;
+}
+
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.px-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.px-20 {
   padding-left: 20px;
   padding-right: 20px;
-}
-.list-menu li + li {
-  border-left: 0;
-  border-right: 1px solid #ddd;
-}
-/* .header-menu{ */
-a {
-  display: block;
-  text-decoration: none;
-  color: #384459;
-  font-size: 20px;
-}
-.header-logo {
-  display: block;
-  padding-top: 0;
-  width: 10%;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: auto;
-}
-.header-btn {
-  display: block;
-  width: 20%;
-  margin-top: -70px;
-  margin-left: auto;
-  margin-right: 0;
 }
