@@ -19,14 +19,17 @@ body {
 .border-right {
   border-right: solid 1px #e4e4e4;
 }
-
-.Hero01 {
-  display: block;
-}
-span {
-  background-color: lightblue;
+.pos-relative {
+  position: relative;
 }
 
+.object-fit-cover {
+  height: 100%;
+  object-fit: cover;
+}
+.m-auto {
+  margin: 0 auto;
+}
 /* Text */
 .decoration-none {
   text-decoration: none;
@@ -37,6 +40,9 @@ span {
 }
 .text-white {
   color: #ffffff;
+}
+.text-primary {
+  color: #007979;
 }
 
 .text-11 {
@@ -71,6 +77,10 @@ span {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .px-40 {
   padding-left: 40px;
   padding-right: 40px;
@@ -101,70 +111,38 @@ span {
 .ml-20 {
   margin-left: 20px;
 }
-/* ===================================  */
-/*   sm Responsive PC w > 640*/
-/* ==================================== */
-@media screen and (min-width: 640px) {
-}
 
-/* ===================================  */
-/*  md Responsive PC w > 768*/
-/* ==================================== */
-@media screen and (min-width: 768px) {
+.btn-11 {
+  display: flex;
+  font-size: 11px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  width: 189px;
+  gap: 0px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #2ea1aa, #06bc7a);
+  box-shadow: 0px 4px 20px #ffffff, -4px -4px 20px #ffffff;
+  margin: 0 auto;
 }
-/* ===================================  */
-/*  lg Responsive PC w > 1024/
-/* ==================================== */
-@media screen and (min-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
-  .lg_flex {
-    display: flex;
-  }
-  .lg_px-10 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .lg_px-30 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .lg_px-40 {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .lg_py-30 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .lg_text-14 {
-    font-size: 14px;
-  }
-  .lg_text-12 {
-    font-size: 12px;
-  }
-  .ml-20 {
-    margin-left: 20px;
-  }
-  .lg_w-150 {
-    width: 150px;
-  }
-  .lg_w-24 {
-    width: 24px;
-  }
-  .lg_ml-0 {
-    margin-left: 0px;
-  }
-}
-/* ===================================  */
-/*   xl Responsive PC w > 1280/
-/* ==================================== */
-@media screen and (min-width: 1280px) {
-  .xl_max-w-1280 {
-    max-width: 1280px;
-  }
-  .xl_m-auto {
-    margin: 0 auto;
-  }
+.btn-14 {
+  display: flex;
+  font-size: 11px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  width: 189px;
+  gap: 0px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #2ea1aa, #06bc7a);
+  box-shadow: 0px 4px 20px #ffffff, -4px -4px 20px #ffffff;
+  margin: 0 auto;
 }

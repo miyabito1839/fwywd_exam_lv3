@@ -1,0 +1,45 @@
+/* ===================================  */
+/*  lg Responsive PC w > 1024/
+/* ==================================== */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  .lg_flex {
+    display: flex;
+  }
+  .lg_px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .lg_px-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .lg_px-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .lg_py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .lg_text-14 {
+    font-size: 14px;
+  }
+  .lg_text-12 {
+    font-size: 12px;
+  }
+  .ml-20 {
+    margin-left: 20px;
+  }
+  .lg_w-150 {
+    width: 150px;
+  }
+  .lg_w-24 {
+    width: 24px;
+  }
+  .lg_ml-0 {
+    margin-left: 0px;
+  }
+}

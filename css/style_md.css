@@ -1,0 +1,18 @@
+/* ===================================  */
+/*  md Responsive PC w > 768*/
+/* ==================================== */
+@media screen and (min-width: 768px) {
+  .md_back_hero01-1 {
+    background-image: url("../img/hero01_bg01.png");
+    background-size: cover;
+    width: 50%;
+    height: auto;
+  }
+
+  .md_back_hero01-2 {
+    background-image: url("../img/Group\ 5.png");
+    background-size: cover;
+    width: 50%;
+    height: auto;
+  }
+}
