@@ -2,20 +2,6 @@
   .sm_flex {
     display: flex;
   }
-  .sm_back_hero01-1 {
-    background-image: url("../img/hero01_bg01.png");
-    background-size: cover;
-    width: 50%;
-    height: auto;
-  }
-
-  .sm_back_hero01-2 {
-    background-image: url("../img/Group\ 5.png");
-    background-size: cover;
-    width: 50%;
-    height: auto;
-  }
-
   .sm_hidden {
     display: none;
   }
