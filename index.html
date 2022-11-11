@@ -6,74 +6,159 @@
     <title>Smalltrees|Fwywd</title>
     <link rel="icon" href="./img/masato.ico" />
     <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style_sm.css" />
+    <link rel="stylesheet" href="css/style_md.css" />
+    <link rel="stylesheet" href="css/style_lg.css" />
+    <link rel="stylesheet" href="css/style_xl.css" />
     <link rel="stylesheet" href="css/reset.css" />
-    <meta property="og:image" content="./img/OGP_image.png" />
+    <meta property="og:title" content="fwywd exam lv3" />
+    <meta
+      property="og:description"
+      content="３期kobayashiのfwywd exam lv3の課題ページです。"
+    />
+    <meta
+      property="og:image"
+      content="https://miyabito1839.github.io/fwywd_exam_lv3/img/OGP_image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://miyabito1839.github.io/fwywd_exam_lv3/"
+    />
   </head>
   <body>
     <header>
-      <nav class="flex justify-between px-30a align-center">
+      <nav
+        class="flex justify-between px-0 align-center ml-20 lg_px-30 xl_max-w-1280 xl_m-auto"
+      >
         <div>
           <a
             href="https://tagitsunomiyabi.editorx.io/kobayashi-3-lv01"
             target="_blank"
             rel="noopener"
           >
-            <img src="./img/logo.svg" alt="fwywd logo" width="150px" />
+            <img src="./img/logo.svg" alt="fwywd logo" class="w-100 lg_w-150" />
           </a>
         </div>
         <div class="header__menu">
-          <ul class="flex list-style-none font-bold">
-            <li class="px-20 border-right">
+          <ul class="list-style-none font-bold hidden lg_flex">
+            <li class="px-20 lg_px-10 border-right">
               <a
-                class="decoration-none text-black"
+                class="decoration-none text-black lg_text-12"
                 href="https://tagitsunomiyabi.editorx.io/kobayashi-3-lv01"
                 target="_blank"
                 rel="noopener"
                 >HOME</a
               >
             </li>
-            <li class="px-20 border-right">
-              <a class="decoration-none text-black" href="#">起業家育成</a>
+            <li class="px-20 lg_px-10border-right">
+              <a class="decoration-none text-black lg_text-12" href="#"
+                >起業家育成</a
+              >
             </li>
-            <li class="px-20 border-right">
-              <a class="decoration-none text-black" href="#">コンセプト</a>
+            <li class="px-20 lg_px-10 border-right">
+              <a class="decoration-none text-black lg_text-12" href="#"
+                >コンセプト</a
+              >
             </li>
-            <li class="px-20 border-right">
-              <a class="decoration-none text-black" href="#">採用</a>
+            <li class="px-20 lg_px-10 border-right">
+              <a class="decoration-none text-black lg_text-12" href="#">採用</a>
             </li>
-            <li class="px-20 border-right">
-              <a class="decoration-none text-black" href="#">ニュース</a>
+            <li class="px-20 lg_px-10 border-right">
+              <a class="decoration-none text-black lg_text-12" href="#"
+                >ニュース</a
+              >
             </li>
-            <li class="px-20">
-              <a class="decoration-none text-black" href="#">運営会社</a>
+            <li class="px-20 lg_px-10">
+              <a class="decoration-none text-black lg_text-12" href="#"
+                >運営会社</a
+              >
             </li>
           </ul>
         </div>
         <div>
           <a
-            class="px-40a py-30 flex bg-primary text-white decoration-none font-bold gap-x-10 btn-hover"
+            class="px-20 py-15 flex align-center bg-primary text-white decoration-none font-bold gap-x-10 btn-hover lg_px-40 lg_py-30 text-11 lg_text-14"
             href="https://forms.gle/RMFLvVLhxPZH5LBG7"
             target="_blank"
             rel="noopener"
           >
-            <img src="./img/Polygon 2.svg" alt="" width="24px" />
-            　無料説明会への申し込み
+            <img src="./img/Polygon 2.svg" alt="" class="w-18 lg_w-24" />
+            無料説明会への申し込み
           </a>
         </div>
       </nav>
     </header>
-    <div>
-      <img class="test" src="./img/hero01_bg01.png" alt="Hero01__bg" />
-    </div>
-    <section class="Hero01">
-      <div class="Hero01__bg">
-        <img src="./img/hero01_bg01.png" alt="Hero01__bg" />
+    <!-- ####### Hero01 ####### -->
+    <section class="sm_flex xl_max-w-1280 xl_m-auto">
+      <div class="flex-column align-center background-hero01-bg">
+        <img
+          src="./img-hero/logo.svg"
+          alt="Hero01__logo"
+          class="w-80 py-30 mt-20"
+        />
+        <img
+          src="./img-hero/line.svg"
+          alt="Hero01__line"
+          class="w-90p pos-relative-t10"
+        />
+        <img
+          src="./img-hero/hero_txt_title_img_black.svg"
+          alt="Hero01__title"
+          class="w-90p pos-relative-nt15"
+        />
+
+        <div class="flex mb-50">
+          <p class="text-11 text-primary font-bold">仕事を続けながら挑戦可能</p>
+          <img
+            src="./img-hero/icon_hero_x.svg"
+            alt="Hero01_x"
+            class="w-40 px-15"
+          />
+          <p class="text-11 text-primary font-bold">新規事業のすべてが学べる</p>
+        </div>
+
+        <div class="hidden sm_flex-column sm_pos-relative-nt10">
+          <div class="text-primary font-bold text-11">
+            <p style="text-align: center">
+              <span style="font-family: Verdana">\</span>
+              現在１期で２８人が起業に挑戦中 /
+            </p>
+          </div>
+          <a
+            class="flex btn-14 btn-hover"
+            href="https://forms.gle/RMFLvVLhxPZH5LBG7"
+            target="_blank"
+            ssssssssssssssss
+            rel="noopener"
+          >
+            <img src="./img/Polygon 2.svg" alt="" class="w-18 lg_w-24" />
+            無料説明会への申し込み
+          </a>
+        </div>
       </div>
-      <div class="Hero01__btn"></div>
-      <div class="Hero01__g5">
+
+      <div class="sm_hidden py-15">
+        <div class="text-primary font-bold text-11">
+          <p style="text-align: center">
+            <span style="font-family: Verdana">\</span>
+            現在１期で２８人が起業に挑戦中 /
+          </p>
+        </div>
+        <a
+          class="flex btn-11 btn-hover"
+          href="https://forms.gle/RMFLvVLhxPZH5LBG7"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src="./img/Polygon 2.svg" alt="" class="w-18 lg_w-24" />
+          無料説明会への申し込み
+        </a>
+      </div>
+      <div class="background-hero-persons">
         <img src="./img/Group 5.png" alt="persons" />
       </div>
     </section>
+    <!-- ####### Synpmathy ####### -->
     <section class="Synpmathy"></section>
     <section class="Solution1"></section>
     <section class="Solution2"></section>

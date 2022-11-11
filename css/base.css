@@ -1,13 +1,17 @@
 /* Fundamental */
 body {
   font-family: "Noto Sans JP";
-  font-size: 16px;
+  font-size: 12px;
   color: #384459;
 }
 
 /* Layout */
 .flex {
   display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 .justify-between {
   justify-content: space-between;
@@ -19,14 +23,18 @@ body {
 .border-right {
   border-right: solid 1px #e4e4e4;
 }
-
-.Hero01 {
-  display: block;
+.pos-relative-nt15 {
+  position: relative;
+  top: -15px;
 }
-span {
-  background-color: lightblue;
+.pos-relative-t10 {
+  position: relative;
+  top: 10px;
 }
 
+.m-auto {
+  margin: 0 auto;
+}
 /* Text */
 .decoration-none {
   text-decoration: none;
@@ -36,10 +44,22 @@ span {
   color: #384459;
 }
 .text-white {
-  font-size: 11px;
   color: #ffffff;
 }
+.text-primary {
+  color: #007979;
+}
 
+.text-center {
+  text-align: center;
+}
+
+.text-11 {
+  font-size: 11px;
+}
+.text-14 {
+  font-size: 14px;
+}
 .font-bold {
   font-weight: 600;
 }
@@ -65,6 +85,11 @@ span {
   gap: 0px 10px;
 }
 
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .py-30 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -73,101 +98,106 @@ span {
   padding-left: 40px;
   padding-right: 40px;
 }
-.px-40a {
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
 .px-30 {
   padding-left: 30px;
   padding-right: 30px;
 }
-.px-30a {
-  padding-left: 5px;
-  padding-right: 5px;
-}
+
 .px-20 {
   padding-left: 20px;
   padding-right: 20px;
 }
-.header__menu {
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.hidden {
   display: none;
-  font-size: 16px;
 }
 
-.Hero01 {
-  display: block;
+/* size */
+.w-100 {
+  width: 100px;
 }
-.Hero01__btn {
-  height: 50%;
+.w-80 {
+  width: 80px;
 }
-
-.test {
-  width: 0%;
-  margin: 0;
+.w-90p {
+  width: 90%;
 }
-
-@media screen and (min-width: 481px) and (max-width: 1200px) {
-  .Hero01 {
-    display: flex;
-    justify-content: space-between;
-  }
-  .Hero1__bg {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-  }
-  .Hero1__btn {
-    width: 0%;
-  }
-  .Hero1__g5 {
-    width: 0%;
-  }
-
-  .header__menu {
-    display: block;
-    font-size: 12px;
-  }
-  .text-white {
-    font-size: 16px;
-    color: #ffffff;
-  }
-  .px-40a {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .px-30a {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+.w-80p {
+  width: 80%;
+}
+.w-40 {
+  width: 40px;
+}
+.w-18 {
+  width: 18px;
+}
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-50 {
+  margin-bottom: 50px;
 }
 
-@media screen and (min-width: 1201px) {
-  .Hero01 {
-    display: flex;
-    justify-content: space-between;
-  }
-  .Hero1__bg {
-    width: 50%;
-  }
-  .Hero1__g5 {
-    width: 50%;
-  }
+.background-hero01-bg {
+  background-image: url("../img/hero01_bg01.png");
+  background-size: cover;
+}
+.background-hero-persons {
+  background-image: url("../img/Group\ 5.png");
+  background-size: cover;
+}
 
-  .header__menu {
-    display: block;
-    font-size: 16px;
-  }
-  .text-white {
-    font-size: 16px;
-    color: #ffffff;
-  }
-  .px-40a {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .px-30a {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+.btn-11 {
+  display: flex;
+  font-size: 11px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  width: 189px;
+  gap: 0px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #2ea1aa, #06bc7a);
+  box-shadow: 0px 4px 20px #ffffff, -4px -4px 20px #ffffff;
+  margin: 0 auto;
+}
+.btn-14 {
+  display: flex;
+  font-size: 11px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  width: 189px;
+  gap: 0px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #2ea1aa, #06bc7a);
+  box-shadow: 0px 4px 20px #ffffff, -4px -4px 20px #ffffff;
+  margin: 0 auto;
 }

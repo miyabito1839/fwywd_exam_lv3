@@ -1,0 +1,17 @@
+@media screen and (min-width: 640px) {
+  .sm_flex {
+    display: flex;
+  }
+  .sm_flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .sm_hidden {
+    display: none;
+  }
+
+  .sm_pos-relative-nt10 {
+    position: relative;
+    top: -10px;
+  }
+}
