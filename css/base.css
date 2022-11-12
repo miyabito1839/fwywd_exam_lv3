@@ -6,6 +6,11 @@ body {
 }
 
 /* Layout */
+.grid-syn {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 700px, 100px;
+}
 .flex {
   display: flex;
 }
@@ -14,6 +19,10 @@ body {
 }
 .block {
   display: block;
+}
+.block-center {
+  display: block;
+  margin: auto;
 }
 .flex-column {
   display: flex;
@@ -72,6 +81,15 @@ body {
 .text-16 {
   font-size: 16px;
 }
+.text-18 {
+  font-size: 18px;
+}
+.text-20 {
+  font-size: 20px;
+}
+.text-32 {
+  font-size: 20px;
+}
 .font-bold {
   font-weight: 600;
 }
@@ -79,6 +97,9 @@ body {
 /* Background */
 .bg-primary {
   background: #007979;
+}
+.bg-white {
+  background: #ffffff;
 }
 .bg-footer {
   background: #384459;
@@ -95,9 +116,9 @@ body {
   background-image: url("../img/hero01_bg01.png");
   background-size: cover;
 }
-.background-hero-persons {
-  background-image: url("../img/Group\ 5.png");
-  background-size: cover;
+.background-hero02-bg {
+  background-image: url("../img-hero/sp-hero02_bg.jpg");
+  background-size: 100%;
 }
 
 /* List */
@@ -154,6 +175,15 @@ body {
 }
 
 /* size */
+.high-680 {
+  height: 680px;
+}
+.high-50 {
+  height: 50px;
+}
+.w-full {
+  width: 100%;
+}
 .w-100 {
   width: 100px;
 }

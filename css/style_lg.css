@@ -33,6 +33,9 @@
   .ml-20 {
     margin-left: 20px;
   }
+  .lg_h-100 {
+    height: 100px;
+  }
   .lg_w-150 {
     width: 150px;
   }
@@ -41,5 +44,20 @@
   }
   .lg_ml-0 {
     margin-left: 0px;
+  }
+
+  .lg_high-485 {
+    height: 600px;
+  }
+
+  .lg_high-485 {
+    height: 485px;
+  }
+
+  .lg_max-w-1600 {
+    max-width: 1600px;
+  }
+  .lg_gap-y-100 {
+    gap: 100px 0px;
   }
 }
