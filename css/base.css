@@ -1,11 +1,11 @@
-/* Fundamental */
+/* #region Fundamental */
 body {
   font-family: "Noto Sans JP";
   font-size: 12px;
   color: #384459;
 }
-
-/* Layout */
+/* #endregion */
+/* #region layout */
 .grid-syn {
   display: grid;
   grid-template-columns: 1fr;
@@ -53,7 +53,8 @@ body {
 .m-auto {
   margin: 0 auto;
 }
-/* Text */
+/* #endregion */
+/* #region Text */
 .decoration-none {
   text-decoration: none;
 }
@@ -93,8 +94,8 @@ body {
 .font-bold {
   font-weight: 600;
 }
-
-/* Background */
+/* #endregion */
+/* #region Background */
 .bg-primary {
   background: #007979;
 }
@@ -120,21 +121,21 @@ body {
   background-image: url("../img-hero/sp-hero02_bg.jpg");
   background-size: 100%;
 }
-
-/* List */
+/* #endregion */
+/* #region List */
 .list-style-none {
   list-style: none;
 }
-
-/* Hover */
+/* #endregion */
+/* #region Hover */
 .btn-hover:hover {
   opacity: 0.7;
   transition: 1s;
 }
-
-/* Margin,Padding,Gap */
-.gap-x-10 {
-  gap: 0px 10px;
+/* #endregion */
+/* #region Margin,Padding,Gap */
+.gap-x-16 {
+  gap: 0px 16px;
 }
 .gap-y-20 {
   gap: 20px 0px;
@@ -173,8 +174,17 @@ body {
 .hidden {
   display: none;
 }
-
-/* size */
+/* #endregion */
+/* #region size */
+.m-width-600 {
+  max-width: 600px;
+}
+.m-width-500 {
+  max-width: 537px;
+}
+.ml-auto {
+  margin-left: auto;
+}
 .high-680 {
   height: 680px;
 }
@@ -187,8 +197,14 @@ body {
 .w-100 {
   width: 100px;
 }
+.w-394 {
+  width: 394px;
+}
 .w-80 {
   width: 80px;
+}
+w-46 {
+  width: 46px;
 }
 .w-90p {
   width: 90%;
@@ -227,7 +243,8 @@ body {
 .mb-50 {
   margin-bottom: 50px;
 }
-
+/* #endregion */
+/* #region etc */
 .btn-11 {
   display: flex;
   font-size: 11px;
@@ -262,3 +279,4 @@ body {
   box-shadow: 0px 4px 20px #ffffff, -4px -4px 20px #ffffff;
   margin: 0 auto;
 }
+/* #endregion */
