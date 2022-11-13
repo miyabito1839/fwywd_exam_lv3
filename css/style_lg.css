@@ -5,6 +5,17 @@
   body {
     font-size: 16px;
   }
+ 
+  .lg_grid-wrap-dif {
+    max-width:1200px;
+    height:1030px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  
+
   .lg_flex {
     display: flex;
   }

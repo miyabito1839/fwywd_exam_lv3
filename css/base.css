@@ -6,10 +6,12 @@ body {
 }
 /* #endregion */
 /* #region layout */
-.grid-syn {
+.grid-wrap-dif {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 700px, 100px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.disp-none {
+  display: none;
 }
 .flex {
   display: flex;
