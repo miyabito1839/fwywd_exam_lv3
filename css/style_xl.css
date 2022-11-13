@@ -8,4 +8,8 @@
   .xl_m-auto {
     margin: 0 auto;
   }
+  .xl_mt-n280 {
+      margin-top:-290px;
+    }
+  }
 }

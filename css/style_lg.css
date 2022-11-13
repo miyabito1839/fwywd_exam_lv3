@@ -5,6 +5,17 @@
   body {
     font-size: 16px;
   }
+ 
+  .lg_grid-wrap-dif {
+    max-width:1200px;
+    height:1030px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  
+
   .lg_flex {
     display: flex;
   }
@@ -20,6 +31,9 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  .lg_vx-15 {
+    padding-left: 15vw;
+  }
   .lg_py-30 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -33,13 +47,45 @@
   .ml-20 {
     margin-left: 20px;
   }
+  .lg_h-100 {
+    height: 100px;
+  }
   .lg_w-150 {
     width: 150px;
   }
   .lg_w-30 {
     width: 30px;
   }
+
   .lg_ml-0 {
     margin-left: 0px;
   }
+  .lg_m-0 {
+    margin: 0;
+  }
+
+  .lg_high-485 {
+    height: 600px;
+  }
+
+  .lg_high-485 {
+    height: 485px;
+  }
+
+  .lg_max-w-1600 {
+    max-width: 1559px;
+  }
+
+  .lg_m-width-1000 {
+    max-width: 800px;
+  }
+  .lg_gap-y-100 {
+    gap: 100px 0px;
+  }
+
+  .lg_mr-80 {
+    margin-right: 80px;
+  }
+}
+
 }
