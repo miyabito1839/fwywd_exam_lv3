@@ -2,6 +2,9 @@
   .sm_flex {
     display: flex;
   }
+  .sm_disp-none {
+    display: none;
+  }
   .sm_flex-column {
     display: flex;
     flex-direction: column;

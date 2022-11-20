@@ -9,7 +9,9 @@
     margin: 0 auto;
   }
   .xl_mt-n280 {
-      margin-top:-290px;
-    }
+    margin-top: -290px;
+  }
+  .xl_pt-0vw {
+    padding-top: 0vw;
   }
 }

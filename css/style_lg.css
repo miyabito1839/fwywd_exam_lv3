@@ -86,6 +86,10 @@
   .lg_mr-80 {
     margin-right: 80px;
   }
+
+  .lg_pt-0vw {
+    padding-top: 0vw;
+  }
 }
 
 }
