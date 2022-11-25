@@ -19,6 +19,10 @@ body {
 .grid {
   display: grid;
 }
+.grid-col-11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 .block {
   display: block;
@@ -75,6 +79,9 @@ body {
 
 /* #endregion */
 /* #region Text */
+.list-style-none {
+  list-style: none;
+}
 .decoration-none {
   text-decoration: none;
 }
@@ -87,6 +94,14 @@ body {
 }
 .text-primary-800 {
   color: #007979;
+}
+
+.text-primary-200 {
+  color: #2ea1aa;
+}
+
+.text-primary-100 {
+  color: #06bbbc;
 }
 
 .text-center {
@@ -122,6 +137,9 @@ body {
 }
 .font-bold {
   font-weight: 600;
+}
+.font-900 {
+  font-weight: 900;
 }
 .font-italic {
   font-style: italic;
@@ -201,6 +219,10 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .py-30 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -236,6 +258,7 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+
 .hidden {
   display: none;
 }
@@ -248,11 +271,17 @@ body {
 .ml-10 {
   margin-left: 10px;
 }
+.ml-16 {
+  margin-left: 16px;
+}
 .ml-100 {
   margin-left: 200px;
 }
 .ml-250 {
   margin-left: 250px;
+}
+.ml-230 {
+  margin-left: 230px;
 }
 .ml-v50 {
   margin-left: 50vw;
@@ -284,6 +313,9 @@ body {
 .-mt-20 {
   margin-top: -20px;
 }
+.-mt-120 {
+  margin-top: -120px;
+}
 .mt-10 {
   margin-top: 10px;
 }
@@ -292,6 +324,9 @@ body {
 }
 .mt--50 {
   margin-top: -50px;
+}
+.mt--90 {
+  margin-top: -90px;
 }
 .mt--95 {
   margin-top: -95px;
@@ -315,6 +350,21 @@ body {
 }
 .m-width-400 {
   max-width: 400px;
+}
+.m-width-200 {
+  max-width: 200px;
+}
+.m-width-150 {
+  max-width: 150px;
+}
+.m-wisdth-394 {
+  max-width: 394px;
+}
+.m-width-294 {
+  max-width: 294px;
+}
+.m-width-46 {
+  max-width: 46px;
 }
 
 .w-full {
@@ -353,11 +403,11 @@ body {
 .w-394 {
   width: 394px;
 }
+.w-294 {
+  width: 294px;
+}
 .w-80 {
   width: 80px;
-}
-.w-46 {
-  width: 46px;
 }
 .w-30 {
   width: 30px;
@@ -384,6 +434,15 @@ body {
 .high-680 {
   height: 680px;
 }
+.high-370 {
+  height: 370px;
+}
+.high-400 {
+  height: 400px;
+}
+.high-430 {
+  height: 430px;
+}
 .high-50 {
   height: 50px;
 }
@@ -392,6 +451,9 @@ body {
 }
 .h-150 {
   height: 150px;
+}
+.h-2 {
+  height: 2px;
 }
 
 /* #endregion */
@@ -455,5 +517,20 @@ body {
   background: linear-gradient(90deg, #2ea1aa 0%, #06bc7a 100%);
   box-shadow: 0px 4px 20px #ffffff, -4px -4px 20px #ffffff;
   margin: 0 auto;
+}
+
+.gradBox1 {
+  margin-top: 85px;
+  margin-bottom: 30px;
+  margin-left: calc(50% - 165px);
+  width: 330px;
+  height: auto;
+  padding: 6px;
+  background: linear-gradient(to right, #2ea1aa 0%, #06bc7a 100%);
+  border-radius: 16px;
+}
+.gradBox2 {
+  border-radius: 16px;
+  background: #ffffff;
 }
 /* #endregion */

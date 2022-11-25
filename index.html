@@ -27,7 +27,7 @@
   </head>
   <body>
     <!-- ####### Header ####### -->
-    <header>
+    <header class="">
       <nav
         class="flex justify-between px-0 align-center ml-20 lg_px-30 xl_max-w-1280 xl_m-auto"
       >
@@ -169,7 +169,7 @@
       </div>
     </section>
     <!-- ####### Synpmathy ####### -->
-    <section tylse="height: 794px" class="lg_max-w-1600">
+    <section tylse="height: 794px" class="lg_max-w-1600 disp-none">
       <div class="hidden sm_flex high-50 lg_h-100"></div>
       <div
         class="w-full bg-common high-680 lg_high-485 sm_gap-y-50 lg_gap-y-100"
@@ -303,7 +303,7 @@
                     alt="人2"
                   />
                   <img
-                    class="h-200 ml-250"
+                    class="h-200 ml-230"
                     src="./img_Syn/sol1/Group.png"
                     alt="人1"
                   />
@@ -587,76 +587,298 @@
       </div>
     </section>
     <!-- ####### USER VOICE ####### -->
-    <section style="height: 2395px" class="bg-voice h-200 disp-none">
-      <p class="text-20 text-primary-800 text-center">ユーザーの声</p>
-      <img src="./img-voice/diff/line.png" alt="line" />
-      <div>
-        <img class="grid gap-y-20" src="./img-voice/article-1.png" alt="01" />
+    <section class="bg-voice">
+      <div class="flex-column py-30 m-auto">
+        <p class="text-24 text-black text-center font-bold">ユーザーの声</p>
+        <img
+          style="width: 100px"
+          class="m-auto"
+          src="./img-voice/diff/line.png"
+          alt="line"
+        />
       </div>
-      <div>
-        <img src="./img-voice/img.png" alt="face" />
-        <img src="./img-voice/frame.png" alt="face" />
-        <p class="text-20 text-primary-800 text-center">
-          受講の理由は 〇〇が最大のポイントです
-        </p>
-        <img src="./img-voice/line.png" alt="line" />
-        <p class="text-20 text-black text-center">
-          サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
-          サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
-        </p>
+      <!-- voice01 -->
+      <div class="flex-column">
+        <div class="gradBox1 grid absolute">
+          <div class="gradBox2 grid">
+            <img
+              class="m-auto m-width-150 mt--90"
+              src="./img-voice/img01.png"
+              alt="face"
+            />
+            <p class="text-20 font-bold text-primary-800 text-center py-15">
+              <span class="text-primary-200">人生の転機</span>になっています
+            </p>
+            <img class="m-auto" src="./img-voice/line2.png" alt="line" />
+            <p class="text-12 font-bold text-black text-center py-15">
+              fwywd1期生　名前太郎
+            </p>
+
+            <p
+              style="
+                width: 282px;
+                margin-left: 24px;
+                padding-bottom: 20px;
+                line-height: 180%;
+              "
+              class="text-16 text-black text-bold"
+            >
+              サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ<br />
+              サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+            </p>
+          </div>
+        </div>
+        <div
+          style="margin-top: 120px; margin-left: calc(50% - 150px)"
+          class="gradBox1"
+        >
+          <div class="gradBox2 high-370"></div>
+        </div>
       </div>
-      <div>
-        <img class="grid gap-y-20" src="./img-voice/article-2.png" alt="02" />
+      <!-- voice02 -->
+      <div class="flex-column">
+        <div class="gradBox1 grid absolute">
+          <div class="gradBox2 grid">
+            <img
+              class="m-auto m-width-150 mt--90"
+              src="./img-voice/img.png"
+              alt="face"
+            />
+            <p class="text-20 font-bold text-primary-800 text-center py-15">
+              受講の理由は<br /><span class="text-primary-200">〇〇</span
+              >が最大のポイントです
+            </p>
+            <img class="m-auto" src="./img-voice/line2.png" alt="line" />
+            <p class="text-12 font-bold text-black text-center py-15">
+              fwywd1期生　名前太郎
+            </p>
+
+            <p
+              style="
+                width: 282px;
+                margin-left: 24px;
+                padding-bottom: 20px;
+                line-height: 180%;
+              "
+              class="text-16 text-black text-bold"
+            >
+              サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ<br />
+              サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+            </p>
+          </div>
+        </div>
+        <div
+          style="margin-top: 120px; margin-left: calc(50% - 150px)"
+          class="gradBox1"
+        >
+          <div class="gradBox2 high-400"></div>
+        </div>
       </div>
-      <div class="gap-y-20">
-        <img src="./img-voice/article-3.png" alt="03" />
+      <!-- voice03 -->
+      <div class="flex-column">
+        <div class="gradBox1 grid absolute">
+          <div class="gradBox2 grid">
+            <img
+              class="m-auto m-width-150 mt--90"
+              src="./img-voice/img03.png"
+              alt="face"
+            />
+            <p class="text-20 font-bold text-primary-800 text-center py-15">
+              fwywdを受講してから<br />ストレスなく<span
+                class="text-primary-200"
+                >〇〇</span
+              >できるように<br />なりました！
+            </p>
+            <img class="m-auto" src="./img-voice/line2.png" alt="line" />
+            <p class="text-12 font-bold text-black text-center py-15">
+              fwywd1期生　名前太郎
+            </p>
+
+            <p
+              style="
+                width: 282px;
+                margin-left: 24px;
+                padding-bottom: 20px;
+                line-height: 180%;
+              "
+              class="text-16 text-black text-bold"
+            >
+              サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ<br />
+              サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+            </p>
+          </div>
+        </div>
+        <div
+          style="margin-top: 120px; margin-left: calc(50% - 150px)"
+          class="gradBox1"
+        >
+          <div class="gradBox2 high-430"></div>
+        </div>
+      </div>
+      <!-- voice04 -->
+      <div class="flex-column">
+        <div class="gradBox1 grid absolute">
+          <div class="gradBox2 grid">
+            <img
+              class="m-auto m-width-150 mt--90"
+              src="./img-voice/img04.png"
+              alt="face"
+            />
+            <p class="text-20 font-bold text-primary-800 text-center py-15">
+              心が折れそうな学習量も<br /><span class="text-primary-200"
+                >仲間と一緒</span
+              >だから頑張れます
+            </p>
+            <img class="m-auto" src="./img-voice/line2.png" alt="line" />
+            <p class="text-12 font-bold text-black text-center py-15">
+              fwywd1期生　名前太郎
+            </p>
+
+            <p
+              style="
+                width: 282px;
+                margin-left: 24px;
+                padding-bottom: 20px;
+                line-height: 180%;
+              "
+              class="text-16 text-black text-bold"
+            >
+              サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ<br />
+              サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+            </p>
+          </div>
+        </div>
+        <div
+          style="margin-top: 120px; margin-left: calc(50% - 150px)"
+          class="gradBox1"
+        >
+          <div class="gradBox2 high-400"></div>
+        </div>
       </div>
     </section>
+
     <!-- ####### PRICING####### -->
-    <section style="height: 2127px" class="Pricing disp-none">
-      <p class="text-20 text-primary-800 text-center">料金</p>
-      <img src="./img-voice/diff/line.png" alt="line" />
+    <section style="padding-bottom: 40px" class="">
+      <div class="flex-column py-30">
+        <p class="text-24 text-black text-center font-bold">料金</p>
+        <img
+          style="width: 100px"
+          class="m-auto"
+          src="./img-voice/diff/line.png"
+          alt="line"
+        />
+      </div>
+
       <div>
         <div>
           <img
-            class="grid gap-y-20"
+            class="grid gap-y-20 m-auto"
             src="./img-voice/price/standard.png"
             alt="light"
           />
         </div>
-        <div>
-          <img src="./img-voice/price/Subtract.png" alt="sub" />
-          <img src="./img-voice/price/pricing_img02.png" alt="img2" />
 
-          <p class="text-20 text-primary-800 text-center">スタンダードプラン</p>
-          <p class="text-20 text-primary-800 text-center">9,900 円/月(税込)</p>
-          <p class="text-20 text-primary-800 text-center">
-            【知識のジムへようこそ】 一般的なジムと同じ価格！
-            仲間とともに課題に取り組んで 解決していけます
+        <div
+          style="
+            margin-top: 60px;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border: solid;
+            border-radius: 16px;
+            border-color: #fdbb00;
+            width: 340px;
+          "
+          class="grid m-auto w-300"
+        >
+          <img
+            style="padding-left: 85%"
+            src="./img-voice/price/Subtract.png"
+            alt="sub"
+          />
+          <img
+            class="grid m-auto -mt-20"
+            src="./img-voice/price/pricing_img02.png"
+            alt="img2"
+          />
+
+          <p
+            style="
+              background: linear-gradient(90deg, #2ea1aa 0%, #06bc7a 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              padding-top: 20px;
+            "
+            class="text-20 font-900 text-primary-200 text-center"
+          >
+            スタンダードプラン
           </p>
-          <img src="./img-voice/price/icon_check.png" alt="check" />
-          <img src="./img-voice/price/icon_non.png" alt="non" />
+          <p
+            style="
+              background: linear-gradient(90deg, #2ea1aa 0%, #06bc7a 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+            "
+            class="text-32 text-primary-200 text-center"
+          >
+            <span class="font-900">9,900</span><span class="text-20">円</span
+            ><span class="text-14">/月(税込)</span>
+          </p>
+          <p class="text-14 font-bold text-black text-center">
+            【知識のジムへようこそ】<br />一般的なジムと同じ価格！<br />
+            仲間とともに課題に取り組んで<br />解決していけます
+          </p>
           <div class="">
-            <ul class="text-black font-bold text-20">
+            <ul
+              style="
+                list-style-position: inside;
+                list-style-image: url(./img-voice/price/icon_check.png);
+                padding-top: 20px;
+              "
+              class="text-black font-bold text-16"
+            >
               <li>仲間との学び</li>
               <li>課題と解答</li>
               <li>各種イベント参加権</li>
-              <li style="color: gray">運営側への質問対応</li>
+              <li
+                style="
+                  color: #bdbdbd;
+                  list-style-image: url(./img-voice/price/icon_non.png);
+                "
+              >
+                運営側への質問対応
+              </li>
             </ul>
           </div>
         </div>
         <div>
           <img
-            class="grid gap-y-20"
+            class="grid gap-y-20 m-auto"
             src="./img-voice/price/follow.png"
             alt="follow"
           />
         </div>
       </div>
-      <img src="./img-voice/price/icon_plus.png" alt="+" />
-      <p class="text-20 text-primary-800 text-center">
-        入学金 100,000 円（税別）※ 入学試験の通過後
-      </p>
+      <div>
+        <img
+          class="grid m-auto py-20"
+          src="./img-voice/price/icon_plus.png"
+          alt="+"
+        />
+        <p
+          style="
+            border: 1px solid;
+            border-radius: 16px;
+            border-color: #e1e1e1;
+            height: 66px;
+            width: 340px;
+          "
+          class="m-auto py-20 text-12 text-primary-100 text-center font-bold"
+        >
+          入学金 100,000 円（税別）※ 入学試験の通過後
+        </p>
+      </div>
     </section>
     <!-- ####### HERO ####### -->
     <section
@@ -701,20 +923,24 @@
       <div style="height: 150px"></div>
     </section>
     <!-- ####### FOOTER ####### -->
-    <footer style="height: 544px" class="bg-footer text-white h-200 disp-none">
-      <div>
-        <img src="./img/foot/Logo.png" alt="fwywd logo" />
-      </div>
-      <p style="font-weight: 700; font-size: 16px">
+    <footer class="bg-footer text-white py-20">
+      <img class="px-15" src="./img/foot/Logo.png" alt="fwywd logo" />
+      <p style="padding-top: 15px" class="font-bold text-16 px-15">
         起業を目指す人のための最高の環境
       </p>
-      <div class="footer-info">
-        <div class="inner">
-          <ul class="text-14 column-layoutB3 -spColumn1 -narrow01">
+      <img class="h-2 px-15" src="./img/foot/Line 4.png" alt="line" />
+
+      <div class="grid-col-11 py-30">
+        <div class="">
+          <ul class="text-14 list-style-none">
             <li><a href="#" class="decoration-none text-white">About</a></li>
             <li><a href="#" class="decoration-none text-white">悩み</a></li>
             <li><a href="#" class="decoration-none text-white">解決策</a></li>
             <li><a href="#" class="decoration-none text-white">料金</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <ul class="text-14 list-style-none">
             <li><a href="#" class="decoration-none text-white">Legal</a></li>
             <li><a href="#" class="decoration-none text-white">利用規約</a></li>
             <li>
@@ -726,6 +952,10 @@
               <a href="#" class="decoration-none text-white">特記法表示</a>
             </li>
             <li><a href="#" class="decoration-none text-white">運営会社</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <ul class="text-14 list-style-none">
             <li><a href="#" class="decoration-none text-white">Links</a></li>
             <li>
               <a href="#" class="decoration-none text-white">メディアキット</a>
@@ -736,28 +966,52 @@
           </ul>
         </div>
       </div>
-      <p style="font-weight: 500; font-size: 12px; text-align: center">
-        \SNSでシェア/
-      </p>
-      <div class="w-full">
-        <img src="./img/foot/Line 4.png" alt="line" />
-      </div>
-      <div class="w-394 flex justify-between m-auto">
-        <a href="#">
-          <img src="./img/foot/Facebook.png" alt="facebooklogo" class="w-46" />
-        </a>
-        <a href="#">
-          <img src="./img/foot/Twitter.png" alt="Twitter logo" class="w-46" />
-        </a>
-        <a href="#">
-          <img src="./img/foot/Group 1.png" alt="line logo" class="w-46" />
-        </a>
-        <a href="#">
-          <img src="./img/foot/Frame 156.png" alt="B logo" class="w-46" />
-        </a>
-        <a href="#">
-          <img src="./img/foot/Frame 157.png" alt="p logo" class="w-46" />
-        </a>
+      <div class="">
+        <div class="flex-column text-center">
+          <p class="py-5">
+            <span style="font-family: Verdana">\</span>SNS でシェア /
+          </p>
+          <div
+            style="margin-left: calc(50% - 147px)"
+            class="flex justify-between m-width-294"
+          >
+            <a href="#">
+              <img
+                src="./img/foot/Facebook.png"
+                alt="facebooklogo"
+                class="ml-16 m-width-46"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./img/foot/Twitter.png"
+                alt="Twitter logo"
+                class="ml-16 m-width-46"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./img/foot/Group 1.png"
+                alt="line logo"
+                class="ml-16 m-width-46"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./img/foot/Frame 156.png"
+                alt="B logo"
+                class="ml-16 m-width-46"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./img/foot/Frame 157.png"
+                alt="p logo"
+                class="ml-16 m-width-46"
+              />
+            </a>
+          </div>
+        </div>
       </div>
       <p style="width: 100%; text-align: center; padding-top: 30px">
         ©️ 2022, KIKAGAKU, Inc., All right reserved.
