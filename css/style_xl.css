@@ -14,4 +14,90 @@
   .xl_pt-0vw {
     padding-top: 0vw;
   }
+
+  .xl_w-1068 {
+    width: 1068px;
+    margin-left: calc(50% - 534px);
+  }
+
+  .xl_pb-80 {
+    padding-bottom: 80px;
+  }
+  .xl_mr-80 {
+    margin-right: 80px;
+  }
+
+  .xl_mr-40 {
+    margin-right: 40px;
+  }
+
+  .xl_mr-30 {
+    margin-right: 30px;
+  }
+
+  .xl_mr-5 {
+    margin-right: 5px;
+  }
+
+  .xl_ml-0 {
+    margin-left: 0px;
+  }
+
+  .xl_ml-80 {
+    margin-left: 80px;
+  }
+  .xl_ml-40 {
+    margin-left: 40px;
+  }
+  .xl_ml-30 {
+    margin-left: 30px;
+  }
+
+  .xl_ml-5 {
+    margin-left: 5px;
+  }
+
+  .xl_ml-20vw {
+    margin-left: calc(50% - 500px);
+  }
+  .xl_mr-20vw {
+    margin-right: calc(50% - 500px);
+  }
+
+  .xl_ml-50vw {
+    margin-left: calc(50% - 120px);
+  }
+  .xl_mr-50vw {
+    margin-right: calc(50% - 140px);
+  }
+
+  .xl_pos-relative-t30 {
+    position: relative;
+    top: 30px;
+  }
+
+  .xl_grid-col-11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .xl_ml-cal50-600 {
+    margin-left: calc(50% - 600px);
+  }
+  .xl_ml-cal0-600 {
+    margin-left: calc(50% - 0px);
+  }
+
+  .xl_ml-cal100-600 {
+    margin-left: calc(100% - 600px);
+  }
+
+  .xl_ml-cal0-30 {
+    margin-left: calc(0% + 30px);
+  }
+
+  .xl_gradBox2 {
+    border-radius: 16px;
+    background: #ffffff;
+  }
 }
